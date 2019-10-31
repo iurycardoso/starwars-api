@@ -9,11 +9,11 @@
 
 ## WEB
 
-![alt text]
+![alt text](https://github.com/iurycardoso/starwars-api/blob/develop/starwars/src/assets/desk.gif)
 
 ## MOBILE
 
-![alt text]
+![alt text](https://github.com/iurycardoso/starwars-api/blob/develop/starwars/src/assets/mobile.gif)
 
 ## Instruções
 
