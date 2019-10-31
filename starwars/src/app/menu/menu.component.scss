@@ -1,14 +1,12 @@
 .sidenav-container {
   height: 100%;
+  width: 100%;
 }
 
 .sidenav {
   width: 200px;
 }
 
-.sidenav .mat-toolbar {
-  background: inherit;
-}
 
 .mat-toolbar.mat-primary {
   position: sticky;
@@ -16,7 +14,10 @@
   z-index: 1;
 }
 
+.star {
+  margin: auto;
+}
 
 .android {
-  font-size: 40px;
+  font-size: 42px;
 }
