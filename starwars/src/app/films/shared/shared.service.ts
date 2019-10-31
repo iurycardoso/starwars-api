@@ -1,6 +1,6 @@
-
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -9,10 +9,10 @@ export class SharedService {
 
   filmsUrl = 'https://swapi.co/api/films/'
 
+
   constructor(private http: HttpClient) { }
 
-  getMovies() {
-    const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-    return this.http.get('https://swapi.co/api/films', { headers });
+  listar(): Observable<any> {
+    return this.http.get<any[]>(`${this.filmsUrl}`)
   }
 }
