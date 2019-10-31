@@ -1,5 +1,5 @@
 import { LayoutModule } from '@angular/cdk/layout';
-import { HttpClientModule, HttpHeaders } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule } from '@angular/material/button';
@@ -12,14 +12,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FilmsListaComponent } from './films/films-lista/films-lista.component';
 import { SharedService } from './films/shared/shared.service';
 import { MenuComponent } from './menu/menu.component';
+import { FilmsDetalheComponent } from './films/films-detalhe/films-detalhe.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    FilmsListaComponent,
+    FilmsDetalheComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +37,6 @@ import { MenuComponent } from './menu/menu.component';
     MatIconModule,
     MatListModule,
     HttpClientModule,
-    HttpHeaders,
     FlexLayoutModule,
     MatCardModule,
   ],
