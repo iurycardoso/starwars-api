@@ -1,4 +1,21 @@
-# Starwars
+<h1 align="center">Star Wars - API :octocat: </h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+</p>
+
+>Desenvolvimento de Layout e integração com API REST https://swapi.co
+
+> Lib utilizada: https://material.angular.io/
+
+## WEB
+
+![alt text]
+
+## MOBILE
+
+![alt text]
+
+## Instruções
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
@@ -25,3 +42,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Author
+
+👤 **Iury De Moraes Cardoso**
+
+* Github: [@iurycardoso](https://github.com/iurycardoso)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
