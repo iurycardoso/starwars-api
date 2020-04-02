@@ -1,0 +1,5 @@
+tasks:
+  - init: cd /workspace/starwars-api/starwars
+    command: npm install
+image:
+  file: .gitpod.Dockerfile
